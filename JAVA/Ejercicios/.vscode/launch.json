@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Millas",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "tema2clases.Millas",
+            "args": "",
+            "projectName": "Ejercicios"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - prueba",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "prueba",
+            "args": "",
+            "projectName": "Ejercicios"
+        }
+    ]
+}

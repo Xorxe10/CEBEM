@@ -19,3 +19,13 @@ La memoria USB es un dispositivo de almacenamiento con interfaz USB que trabaja 
 ## Principales fabricantes
 
 Toshiba, Sandisk, Kingston, Philips.
+
+## Velocidades transferencia
+
+| VERSION USB | VELOCIDAD TRANSFERENCIA | AÑO APARICION |
+| ----------- | ----------------------- | ------------- |
+| USB 1.0     |        1.5Mb/s          |    1996       |
+| USB 1.1     |        12Mb/s           |    1998       |
+| USB 2.0     |        480Mb/s          |    2000       |
+| USB 3.0     |        4.8Gb/s          |    2008       |
+| USB 3.1     |        10Gb/s           |    2014       |

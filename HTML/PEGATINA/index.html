@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>LESS</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    </head>
+    <body>
+        <div id="main">
+            <h1 class="gold" style="font-size: 72px; text-align: center;">{  LESS  }</h1><br><br>
+            <h1 class="aqua">¿Qué es?</h1>
+            <p>LESS es una extensión de CSS basada en JavaScript. Su sintaxis es prácticamente idéntica a la de CSS, por lo cual es muy
+            sencillo aprenderlo e implementarlo en nuestro método de trabajo, pero añadiendo una serie de nuevas funcionalidades muy 
+            interesantes y que aumentan la productividad del usuario. Es un lenguaje compilado, en el cual un archivo JS se encarga de la 
+            conversión del código LESS en CSS tradicional.  </p><br><br>
+            <h1 class="aqua">Principales características</h1>
+            <h2 class="aqua2">Variables</h2>
+            <p>Se permite el uso de variables, de forma que podemos almacenar datos como códigos hexadecimales de color, números de píxeles,
+            y un largo etcétera, e implementarlos en nuestro código de manera rápida y eficiente. 
+            <div class="codigo"><pre>
+@aguamarina: #02C8A7;
+
+.nav{
+    background-color: @aguamarina;
+}
+            </pre></div>
+            </p><br><br>
+            <h2 class="aqua2">Mixins</h2>
+            <p>Los mixins hacen referencia a la posibilidad de reutilizar una porción de código ya escrita. Actúa como una especie de herencia,
+            como podemos ver en el ejemplo.
+            <div class="codigo"><pre>
+.espacio1{ /* Generamos una clase */
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.espacio2{
+    background-color: gray;
+    .espacio1(); /* Hacemos referencia a la clase para 'heredar' sus atributos;
+}
+            </pre></div>
+            </p>
+            <h2 class="aqua2">Anidamientos</h2>
+            <p>LESS nos brinda la posibilidad de anidar código, en vez de escribirlo en cascada. En CSS tradicional, si queremos hacer 
+            referencia a un elemento dentro de otro elemento, lo hacemos en cascada, de esta manera:
+            <div class="codigo"><pre>
+.menu{
+    background-color: #blue;
+}
+.menu li{
+    color: white;
+}
+.menu li a{
+    text-decoration: none;
+}
+            </pre></div><br>
+            En LESS se hace más cómodo y legible el anidar el código de este modo:<br><br>
+            <div class="codigo"><pre>
+.menu{
+    background-color: #blue;
+    li{
+        color: white;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+            </pre></div>
+            </p>
+            <h2 class="aqua2">Funciones</h2>
+            <p>LESS incluye una serie de funciones que hacen acciones sobre las propiedades, como saturar color, iluminar, retornar un 
+            porcentaje... También soporta operaciones matemáticas. <a href="http://lesscss.org/functions/">Listado de funciones</a>.
+            <div class="codigo"><pre>
+@width: 800px;
+@height: 100px;
+.nav{
+    width: percentage(@width); /* devuelve el 50% de la variable */
+    height: @height + 100; /* soporta operaciones matemáticas */
+}
+            </pre></div>
+            </p><br><br>
+        </div>
+    </body>
+</html>

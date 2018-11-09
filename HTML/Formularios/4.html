@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Input sencillo</h1>
+        <form action="script.php" method="POST">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <label>Nombre</label><br>
+                <input type="text" size="50" maxlength="50" name="nombre"><br><br>
+                <label>Descripción</label><br>
+                <textarea name="descripcion" rows="6" cols="47"></textarea><br><br>
+                <label>Foto </label> <input type="file" name="foto"> <br><br>
+                <input type="checkbox" name="contador" value="contador">Añadir contador de visitas<br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos económicos</legend>
+                <label>Precio <input type="text" size="5" maxlength="5">  €</label>&emsp;&emsp;<label>Impuestos</label>
+                <select name="impuestos">
+                        <option value="4">4%</option>
+                        <option value="7">7%</option>
+                        <option value="16">16%</option>
+                        <option value="25">25%</option>
+                    </select><br><br>
+                    <label>Promoción</label><br>
+                    <input type="radio" name="ninguno" value="ninguno"> Ninguno<br>
+                    <input type="radio" name="tra" value="tra"> Transporte gratuito<br>
+                    <input type="radio" name="5" value="5"> Descuento 5%<br>
+            </fieldset>
+        </form>
+    </body>
+</html>

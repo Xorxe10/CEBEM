@@ -1,0 +1,41 @@
+body{
+    background-color: #7CDBD5;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#main{
+    width: 50%;
+    padding:30px;
+    margin: 0px auto;
+}
+
+.aqua{
+    color: #02a086;
+}
+
+.aqua2{
+    color: #02C8A7;
+}
+
+.gold{
+    color: #F9BE02;
+}
+
+.codigo {
+    background-color: #02C8A7;
+    /*border-style: solid;
+    border-color: #02a086;*/
+    border-radius: 15px;    
+    color: white;
+    padding: 10px; 
+}

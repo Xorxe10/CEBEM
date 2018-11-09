@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Rellena tu CV</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label>Provincia</label><br>
+                <select name="provincia">
+                    <option value="pontevedra">Pontevedra</option>
+                    <option value="acoruña">A Coruña</option>
+                    <option value="lugo">Lugo</option>
+                    <option value="orense">Ourense</option>
+                </select><br><br>
+                <label>Fecha de nacimiento</label><br>
+                <input type="text" maxlength="2" size="2" name="dia"> de 
+                <select name="mes">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select> de <input type="text" maxlength="4" size="4" name="año"><br><br>
+                <label>Temas de interés</label><br>
+                <select name="temasinteres" size="5" multiple="multiple">
+                    <option value="adminbd">Administración de bases de datos</option>
+                    <option value="analisis">Análisis y programación</option>
+                    <option value="arquit">Arquitectura</option>
+                    <option value="calidad">Calidad</option>
+                    <option value="erp">ERP, CBM, Business Intelligence</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

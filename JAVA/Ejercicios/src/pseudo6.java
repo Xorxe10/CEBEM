@@ -9,5 +9,6 @@ public class pseudo6 {
 			entregadas = sc.nextInt();
 			existencias -= entregadas;
 		}
+		sc.close();
 	}
 }

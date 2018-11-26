@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class suma {
 	public static void main(String[] args) {
 		char letra = (char) (Math.random() * (97-123) + 123);

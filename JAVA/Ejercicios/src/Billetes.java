@@ -69,6 +69,7 @@ public class Billetes {
 		else if(cinco > 0 && cinco == 1) {System.out.print(cinco + " billete de 5, ");}
 		
 		if(saldo > 0) {System.out.print("y " + saldo + "€ restante.");}
+		sc.close();
 	}
 }
 	

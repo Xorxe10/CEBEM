@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS Empleados(
     Oficina VARCHAR(3),
     Categoria VARCHAR(20),
     Contrato DATE,
-    CodJefe CHAR(5),
+    CodJefe CHAR(5), 
     Cuota DOUBLE(10,2),
     Ventas DOUBLE(10,2))Engine = InnoDB;
 

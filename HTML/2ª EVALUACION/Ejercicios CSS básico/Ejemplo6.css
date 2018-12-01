@@ -1,0 +1,24 @@
+div.box {
+    margin: auto;	
+    width: 50%;
+    border: 1px solid black;
+    background: orange;
+    padding: 50px 20px;
+    height: 25%;
+    }
+    
+    h1{
+    color: blue;
+    font-size: 50px;
+    margin: 10px 255px 8px 30px;
+    border: thick dotted gold;
+    padding: 0px;
+    }
+    
+    p{
+    color: magenta;
+    font-size: 24px;
+    margin: 3px 30px;
+    border: 1px dashed blue;
+    padding-left: 70px;
+    }

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1</title>
+        <style type="text/css">
+            h1{
+                position: absolute;
+                left: 50px;
+                top: 0;
+                color: blue;
+            }
+        </style>
+        <script  type="text/javascript">window.onload =  function()  {var  dibujo  = document.getElementById('lienzo_1');if(dibujo  && dibujo.getContext) { var  context  = dibujo.getContext('2d'); context.strokeStyle =  "#000000";context.fillStyle =  "#FFFF00";context.beginPath();context.arc(100,100,50,0,Math.PI*2,true);context.closePath();context.stroke();context.fill();}}</script>
+    </head>
+    <body>
+        <h1>Canvas</h1>
+        <canvas  id="lienzo_1"  width="200"  height="200"><p>Su  navegador  no  admite  canvas.</p></canvas>
+    </body>
+</html>

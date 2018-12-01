@@ -1,0 +1,25 @@
+body{
+    background-color: red;
+    border: 1px solid black;
+}
+#column1 {
+    float:left;
+    width: 25%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}
+#column2 {
+    float:left;
+    width: 44%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}
+#column3 {
+    float:left;
+    width: 25%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid black;
+}

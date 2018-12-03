@@ -17,11 +17,15 @@ SELECT idProducto, precioCompra PrecioSinIVA, precioCompra*1.21 PrecioConIVA FRO
 
 SELECT DISTINCT codPedido FROM LineasPedido; Selecciona los registros NO REPETIDOS.
 
-La función curdate() da la fecha actual, se puede separar en day, month, year. Por ejemplo, una consulta para comprobar los registros del 
+La función curdate() da la fecha actual, se puede separar en DAY, MONTH, YEAR. Por ejemplo, una consulta para comprobar los registros del 
 dia de hoy
 SELECT * FROM pedidos WHERE DAY(fechaPedido)=DAY(curdate());
 
 SELECT nombre, sueldo FROM empleados ORDER BY sueldo DESC; ASC/DESC, ORDER BY ordena.
+<<<<<<< HEAD
 
 LIMIT sirve para sacar solo X resultados. p ej 5 precios mas caros:
 SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 5;
+=======
+*/
+>>>>>>> 6bca8943a5c3b1efae7f1c8c911270f0cdeed366

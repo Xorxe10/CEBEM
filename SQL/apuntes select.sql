@@ -22,3 +22,6 @@ dia de hoy
 SELECT * FROM pedidos WHERE DAY(fechaPedido)=DAY(curdate());
 
 SELECT nombre, sueldo FROM empleados ORDER BY sueldo DESC; ASC/DESC, ORDER BY ordena.
+
+LIMIT sirve para sacar solo X resultados. p ej 5 precios mas caros:
+SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 5;
